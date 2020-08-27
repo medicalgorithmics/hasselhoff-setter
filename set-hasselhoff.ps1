@@ -21,7 +21,7 @@ namespace HasselhoffSetter
 }
 "@
 
-$wallpaper_link = "https://raw.githubusercontent.com/matt-pielat/hasselhoff-setter/master/hasselhoff.jpg"
+$wallpaper_link = "https://raw.githubusercontent.com/medicalgorithmics/hasselhoff-setter/master/hasselhoff.jpg"
 $web_client = New-Object System.Net.WebClient
 $save_location = "$env:USERPROFILE\Pictures\hasselhoff.jpg"
 $web_client.DownloadFile($wallpaper_link, $save_location)
